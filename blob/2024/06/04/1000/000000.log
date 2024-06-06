@@ -1,0 +1,1 @@
+1.0;2024-06-04T10:29:16.0119659Z;GetBlobServiceProperties;TrustedAccessSuccess;200;7;6;TrustedAccess;saretentiontesttc;saretentiontesttc;blob;"https://saretentiontesttc.blob.core.windows.net:443/?restype=service&amp;comp=properties&amp;sk=system-1";"/saretentiontesttc";389a7b52-001e-0076-0f6a-b642d7000000;0;10.0.2.10:37002;2020-02-10;347;0;152;801;0;;;;;;"SRP/1.0";;
