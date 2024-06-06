@@ -45,14 +45,17 @@ See the difrence between manual deletion and management policy deletion
 cat ./blob/*/*/*/*/*.log | grep DeleteBlob
 ```
 
-![delete-blob](./images/delete-blob.png)
+![delete-blob](./images/delete-blob-01.png)
+![delete-blob](./images/delete-blob-02.png)
+![delete-blob](./images/delete-blob-03.png)
 
 Used methods to delete blobs:
 - Using web interface
 - Automatically by management policy
 - Using az cli
-- Using az cli with sas token
-
+- Using az cli with --sas-token
+- Using az cli with --auth-mode key (uses storage account key)
+- Using az cli with --auth-mode login (uses Azure AD RBAC)
 
 ## Implementation using IaaC
 
